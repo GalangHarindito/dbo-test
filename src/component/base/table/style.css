@@ -1,0 +1,40 @@
+.header-table {
+  font-size: 1rem;
+  text-align: center;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+  color: #000;
+  width: 8rem;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  height: 5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #bbb2b2;
+  cursor: pointer;
+}
+
+.potition {
+  text-align: center;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.disable {
+  cursor: not-allowed;
+}

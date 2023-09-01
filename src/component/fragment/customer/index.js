@@ -9,7 +9,7 @@ const Customer = ({ data, onClick, paginate, page, handlePrev, handleNext }) => 
   const [openModal, setOpenModal] = useState(false);
   const [id, setId] = useState("");
   const [detailCustomer, setDetailCustomer] = useState({});
-  console.log(page)
+
   const columns = useMemo(
     () => [
       {
